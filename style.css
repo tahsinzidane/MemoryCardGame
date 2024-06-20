@@ -49,7 +49,17 @@ h1 {
 }
 
 #restart-button {
+    background-color: #0080ff;
+    color: white;
+    font-weight: 500;
+    border: 0px none;
+    border-radius: 8px;
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+#restart-button:active{
+    background-color: #56a3ef;
 }
