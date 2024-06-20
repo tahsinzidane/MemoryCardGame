@@ -1,5 +1,3 @@
-//  shit year this  chat gpt already replaced me
-
 
 const gameBoard = document.getElementById('game-board');
 const timerElement = document.getElementById('timer');
