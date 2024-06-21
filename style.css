@@ -66,26 +66,38 @@ h1 {
     background-color: #56a3ef;
 }
 
+.footer{
+    position: absolute;
+    bottom: -0px;
+    color: rgb(255, 255, 255);
+}
+
 
 
 /* css for mobile view */
 @media screen and (max-width: 480px) {
 
+    body{
+        height: 100vh;
+    }
     .game-board {
         gap: 5px;
-        ;
     }
 
     .card {
         height: 60px;
         width: 60px;
-        ;
-        ;
+
     }
 
 }
 
 @media screen and (max-width: 375px) {
+
+    .game-board {
+        position: relative;
+        left: 20px;
+    }
 
     .card {
         height: 60px;

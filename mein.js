@@ -125,3 +125,5 @@ restartButton.addEventListener('click', resetGame);
 
 createBoard();
 startTimer();
+
+
